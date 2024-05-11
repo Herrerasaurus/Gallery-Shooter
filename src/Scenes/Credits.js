@@ -48,7 +48,7 @@ class Credits extends Phaser.Scene {
         text.setFontSize(100);
         text.setColor('#ffcc00');
 
-        const credits = this.add.text(500, 450, 'The goal of the game is to clear the sky of all the clouds.\n There are three wave levels and you have three lives\n which get partically regenerated after each wave.\n Move the character with the A key and D key.\n Shoot with the Spacebar.\n Press the ESC button to go back to the Home Screen.', { align: 'center'});
+        const credits = this.add.text(500, 450, 'The goal of the game is to clear the sky of all the clouds.\n There are three wave levels and you have three lives\n which get partially regenerated after each wave.\n Move the character with the A key and D key.\n Shoot with the Spacebar.\n Press the ESC button to go back to the Home Screen.', { align: 'center'});
         credits.setOrigin(0.5, 0.5);
         credits.setFontFamily('Gothic');
         credits.setFontStyle('bold');
